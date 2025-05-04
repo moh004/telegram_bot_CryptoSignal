@@ -126,7 +126,7 @@ bot.on("message", (msg) => {
   }
 
   if (text === "/about") {
-    return bot.sendMessage(chatId, "ℹ️ This bot analyzes crypto prices using the SMA crossover strategy. Built with Node.js and Binance API.");
+    return bot.sendMessage(chatId, "ℹ️ This bot analyzes crypto prices using the SMA crossover strategy. Built with Node.js. checkout my api in rapidapi \n🪙 https://rapidapi.com/moh2004salehi/api/crypto-signal-buy-sell 💻");
   }
 
   if (text === "/signal") {
